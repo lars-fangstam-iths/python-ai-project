@@ -1,0 +1,92 @@
+[
+  {
+    "listing_id": "A02",
+    "district": "Centrum",
+    "living_area": "34",
+    "rooms": "1.5",
+    "year_built": "1935",
+    "elevator": "yes",
+    "monthly_fee": "2150",
+    "price": "1933000"
+  },
+  {
+    "listing_id": "A05",
+    "district": "Angered",
+    "living_area": "22",
+    "rooms": "1.0",
+    "year_built": "2001",
+    "elevator": "yes",
+    "monthly_fee": "1490",
+    "price": "596000"
+  },
+  {
+    "listing_id": "A06",
+    "district": "Angered",
+    "living_area": "67",
+    "rooms": "2.5",
+    "year_built": "1984",
+    "elevator": "yes",
+    "monthly_fee": "4020",
+    "price": "1481000"
+  },
+  {
+    "listing_id": "A07",
+    "district": "Frölunda",
+    "living_area": "27",
+    "rooms": "1.0",
+    "year_built": "1912",
+    "elevator": "no",
+    "monthly_fee": "1370",
+    "price": "865000"
+  },
+  {
+    "listing_id": "A13",
+    "district": "Angered",
+    "living_area": "52",
+    "rooms": "2.0",
+    "year_built": "1912",
+    "elevator": "no",
+    "monthly_fee": "3380",
+    "price": "1361000"
+  },
+  {
+    "listing_id": "A16",
+    "district": "Frölunda",
+    "living_area": "50",
+    "rooms": "2.0",
+    "year_built": "2006",
+    "elevator": "yes",
+    "monthly_fee": "2970",
+    "price": "1683000"
+  },
+  {
+    "listing_id": "A18",
+    "district": "Linné",
+    "living_area": "31",
+    "rooms": "1.5",
+    "year_built": "2015",
+    "elevator": "yes",
+    "monthly_fee": "1740",
+    "price": "1784000"
+  },
+  {
+    "listing_id": "A19",
+    "district": "Frölunda",
+    "living_area": "57",
+    "rooms": "2.0",
+    "year_built": "1999",
+    "elevator": "yes",
+    "monthly_fee": "2660",
+    "price": "1795000"
+  },
+  {
+    "listing_id": "A24",
+    "district": "Angered",
+    "living_area": "34",
+    "rooms": "1.5",
+    "year_built": "1956",
+    "elevator": "yes",
+    "monthly_fee": "1720",
+    "price": "959000"
+  }
+]
