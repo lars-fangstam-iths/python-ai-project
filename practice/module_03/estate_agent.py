@@ -1,33 +1,15 @@
-class Animal:
-    def __init__(self, name):
+class EstateAgent:
+    def __init__(self, name, district):
         self.name = name
+        self.district = district
+        self.sales = []
 
-    def speak(self):
-        return "..."
+    def add_sale(self, price):
+        if price <= 0:
+            raise ValueError(f"a sale must be more than 0, not {price}")
+        self.sales.append(price)
 
 
-class Cat(Animal):
-    def speak(self):
-        return "Meow"
-
-
-class Dog(Animal):
-    def __init__(self, name, tricks):
-        super().__init__(name)
-        self.tricks = tricks
-
-    def speak(self):
-        return "Woof"
-
-class Horse(Animal):
-    pass
-
-luna = Cat("Luna")
-rex = Dog("Rex", ["sit", "shake"])
-brunte = Horse("Brunte")
-
-for animal in [luna, rex, brunte]:
-    print(animal.name, "says", animal.speak())
-
-print(rex.tricks)
-print(isinstance(rex, Animal))
+kim = EstateAgent("Kim", "Majorna")
+print(kim)
+kim.add_sale(0)
