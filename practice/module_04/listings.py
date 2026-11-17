@@ -58,3 +58,11 @@ class ListingClass():
     def describe(self):
             # Reads self.asking_price, which now goes through the property.
             return f"{self.home.listing_id} in {self.home.district}, {self.asking_price:,} SEK, call {self.agent.name} on {self.agent.phone}."
+
+@dataclass
+class SavedSearch:
+    district: str
+    max_price: int
+
+    def matches(self, listing):
+        return listing.home.district == self.district and listing.asking_price <= self.max_price
