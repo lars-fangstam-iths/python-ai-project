@@ -1,3 +1,4 @@
+certifi==2026.11.20
 iniconfig==2.3.1
 numpy==2.5.5
 packaging==26.3
@@ -7,3 +8,4 @@ Pygments==2.21.0
 pytest==9.2.0
 python-dateutil==4.0.0
 tzdata==2026.6
+ucimlrepo==0.0.7
